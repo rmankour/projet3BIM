@@ -76,6 +76,10 @@ li a:hover:not(.active) {
   background-color: var(--maize);
 }
 
+p{
+  color: var(--ivory);
+}
+
 .justif{
     text-align: justify ;
 }
