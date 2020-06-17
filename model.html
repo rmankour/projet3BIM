@@ -24,11 +24,38 @@
 
 
     <article>
-            <h2>UN MODELE POUR ETRE LA PLUS BELLE !</h2>
-            <p class="justif">Le Dragon est une des 88 constellations du ciel, la huitième par la taille. Elle est composée d'une longue suite d'étoiles qui longe une partie de la Petite Ourse. Malgré sa longueur, elle ne contient pas d'étoile véritablement brillante. Le Dragon était l’une des 48 constellations identifiées par Ptolémée.</p>
-            <p class="source">Source: <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">Wikipedia</a></p>
-            <p class="source">Image de Till Credner - Travail personnel: AlltheSky.com (<a href="https://commons.wikimedia.org/w/index.php?curid=20041478">lien</a>)</sub>
-        </article>
+      <h2>Génèse du projet</h2>
+      <p><b>Après une entrevue avec Laurent Pujo-Menjouet, maître de conférence à l’université Lyon 1 et enseignant en 3BIM, nous avons contacté, sur ses conseils, Samuel Bernard, chercheur au CNRS et lui aussi enseignant en 3BIM, le 16 janvier 2020.</br>
+      Cet entretien nous a permis de mieux connaître les possibilités qui s’offraient à nous autour du sujet que nous avions choisi, et de choisir celles qui nous semblaient les plus pertinentes, en voici un résumé.
+      </b></p>
+
+      <p>Selon Samuel Bernard, ayant travaillé sur le cycle circadien en post doc, le sujet peut être traité avec deux méthodes différentes : une basée sur des études comportementales où les sujets répondent à un questionnaire pour apprécier la qualité de leur sommeil, l’autre basée sur la mesure de paramètre physiologiques, tels que la production de mélatonine, la pression sanguine, la température corporelle….</br>
+      Samuel Bernard a notamment étudié les cycles circadiens dans un contexte de traitement par chimiothérapie, en se posant des questions en lien avec la régénération des cellules. Par exemple, se demander quel est le nombre d’heures de sommeil idéal, ou quel est le moment optimal pour dormir ?
+      </p>
+
+      <p>Un facteur qui influence de manière importante et tangible le cycle circadien est la digestion. En effet, chez une part importante de la population, la digestion correspond à trois pics par jour, correspondant aux trois prises de repas quotidiennes, que l’on associe souvent à une somnolence après le repas, et que l’on peut expliquer par des facteurs métaboliques. Les questions que l’on peut alors se poser, en lien avec le rythme circadien sont alors quand manger ? comment optimiser nos repas ? Vaut-il mieux faire 3 repas par jour, ou plutôt 5 ? Vaut-il mieux manger beaucoup d’un coup ou portionner ? Faut-il manger à des heures précises ?</br>
+      On pourrait alors se proposer d’établir un modèle mécanistique, dans l’optique de créer une meilleure routine alimentaire.
+      </p>
+
+      <p>Il faut cependant avoir conscience que le modèle faisant le lien entre entre horloge interne et prise alimentaire est complexe, et de nombreuses variables entrent en jeu, telles que le nombre de calories dépensées et stockées, le moment de la prise alimentaire (avant une activité sportive, avant le coucher...), informations à coupler avec les hormones, le sommeil, le métabolisme… Il nous faut donc choisir certains critères que nous souhaitons approfondir.</p>
+
+      <p>L’avantage de ce sujet, c’est que de nombreuses données sont disponibles. En effet, l’utilisation de différents outils, tels que les montres connectées, rendent les données sur le sujet faciles à collecter. De plus, nous avons la possibilité de trouver les données dans les articles scientifiques, puisque, si ces articles sont publics, les données doivent l’être aussi.</br>
+      Il est aussi possible de s’intéresser à ce sujet à différents niveaux. On peut par exemple s’intéresser aux différents comportements, que l’on peut essayer d’associer à des pathologies telles que l’obésité, mais on peut aussi s’intéresser à des modèles mécanistiques qui vont essayer de prévoir à quels moments il vaut mieux manger.
+      </p>
+
+      <p>Ces modèles permettent par exemple de remettre en cause certaines croyances populaires, par exemple qu’il ne faut pas manger tard le soir pour avoir un bon sommeil, qu’il faut avoir trois prises alimentaires par jour, qu’il ne faut pas manger entre les repas, ou au contraire qu’il faut avoir 5 ou 6 petits repas par jours… </p>
+
+      <p>Il est possible de commencer de manière très simple :  observer le cycle circadien, en fixant une horloge alimentaire, qui est un comportement volontaire. Ensuite, suivre une variable correspondant à la prise alimentaire : on sépare les calories consommées en calories dépensées et calories stockées, et en fonction de l’heure du jour à laquelle on mange, soit on va dépenser ces calories là soit on va les stocker. On peut par exemple imaginer que si on les mange juste avant d’aller se coucher, on va les stocker car on ne dépensera pas d’énergie. Au contraire si on les absorbe avant de faire une activité physique on va avoir plus de dépenses. On peut donc réfléchir à quel moment de la journée il vaut mieux manger pour avoir un cycle circadien optimisé.</p>
+
+      <p><b>Les objectifs aux suites de cet appel ont été de voir quel type de données on peut avoir, et quel type de données on choisit : un modèle statistique, en faisant du clustering, c’est à dire du partitionnement de données pour faire ressortir différents profils, et les associer à la santé, ou alors un modèle mécanistique, qui essaye d’expliquer les données par un modèle mathématique.</br>
+      Les deux modèles sont possiblement liés : utiliser les résultats des observations pour construire son modèle mécanistiques, utiliser les modèles statistiques sur les résultats des modèles mécanistiques…
+      </b></p>
+
+      <p><b>Nous avons alors décidé de choisir un modèle mécanistique, car nous ne disposions pas de larges jeux de données statistiques, la population étudiée étant assez réduite ( une classe de 25 élèves ).</br>
+      Nous avons de plus choisi d’utiliser des équations différentielles ordinaires pour notre modèle, c’est à dire un modèle décrivant l’accroissement d’une ou plusieurs variables en temps continu.
+      </b></p>
+            
+    </article>
 
 
     <footer>
